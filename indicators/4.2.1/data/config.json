@@ -1,0 +1,20 @@
+{"ons":{
+"maptitle": "4.2.1 Proportion of children under 5 years of age who are developmentally on track",
+"varcolour": "YlGnBu",
+"varlabels": ["Male + Female","Male","Female","TEST"],
+"timeload": "last",
+"timepoints": ["2013","2014","2015","2016","2017"],
+"varunit": ["Percentage (%)"],
+"displaydecimals": 0,
+"legenddecimals": 1,
+"breaks": "equal",
+"dropticks": false,
+"numberBreaks": 5,
+"sourcetext": "SDGs: Indicator 4.2.1",
+"sourceURL" : "https://sustainabledevelopment-uk.github.io/4-2-1/",
+"chartLabels": ["1", "2", "3", "4"],
+"timelineLabelsMB":["13", "14", "15", "16", "17"],
+"timelineLabelsDT":["2013","2014","2015","2016","2017"],
+"average": [["2", "3","1","1","1"],["2", "3","1","1","1"],["2", "3","1","1","1"]]
+
+}}

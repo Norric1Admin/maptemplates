@@ -1,0 +1,53 @@
+# Null values
+
+maptemplates/indicators/###/js/script.js
+
+Update line 140 from...
+
+    //and add properties to the geojson based on the csv file we've read in
+    areas.features.map(function(d, i) {
+
+      d.properties.fill = color(rateById[d.properties.AREACD])
+    });
+	
+To...
+
+    //and add properties to the geojson based on the csv file we've read in
+    areas.features.map(function(d, i) {
+
+		if(
+			rateById[d.properties.AREACD] != null){
+			d.properties.fill = color(rateById[d.properties.AREACD])
+		} else {
+			d.properties.fill = "#eee"
+		}
+
+      });
+
+Update line 435 from...
+
+    function updateLayers() {
+
+      //update properties to the geojson based on the csv file we've read in
+      areas.features.map(function(d, i) {
+
+        d.properties.fill = color(rateById[d.properties.AREACD])
+      });
+
+To...
+
+
+    function updateLayers() {
+
+      //update properties to the geojson based on the csv file we've read in
+      areas.features.map(function(d, i) {
+
+		if(
+			rateById[d.properties.AREACD] != null){
+			d.properties.fill = color(rateById[d.properties.AREACD])
+		} else {
+			d.properties.fill = "#ccc"
+			d.properties.opacity = "0.5"
+		}
+
+      });
