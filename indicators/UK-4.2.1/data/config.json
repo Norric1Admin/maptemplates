@@ -1,6 +1,6 @@
 {"ons":{
 "maptitle": "4.2.1 Proportion of children under 5 years of age who are developmentally on track",
-"varcolour": "YlGnBu",
+"varcolour": "Reds",
 "varlabels": ["Male + Female","Male","Female","TEST"],
 "timeload": "last",
 "timepoints": ["2013","2014","2015","2016","2017"],
