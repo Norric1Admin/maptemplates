@@ -140,8 +140,14 @@ if (Modernizr.webgl) {
     //and add properties to the geojson based on the csv file we've read in
     areas.features.map(function(d, i) {
 
-      d.properties.fill = color(rateById[d.properties.AREACD])
-    });
+		if(
+			rateById[d.properties.AREACD] != null){
+			d.properties.fill = color(rateById[d.properties.AREACD])
+		} else {
+			d.properties.fill = "#eee"
+		}
+
+      });
 
 
     map.on('load', defineLayers);
@@ -433,9 +439,15 @@ if (Modernizr.webgl) {
     function updateLayers() {
 
       //update properties to the geojson based on the csv file we've read in
-      areas.features.map(function(d, i) {
+    areas.features.map(function(d, i) {
 
-        d.properties.fill = color(rateById[d.properties.AREACD])
+		if(
+			rateById[d.properties.AREACD] != null){
+			d.properties.fill = color(rateById[d.properties.AREACD])
+		} else {
+			d.properties.fill = "#eee"
+		}
+
       });
 
       //Reattach geojson data to area layer
