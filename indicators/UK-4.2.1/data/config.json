@@ -6,7 +6,7 @@
 "timepoints": ["2013","2014","2015","2016","2017"],
 "varunit": ["Percentage (%)"],
 "displaydecimals": 0,
-"legenddecimals": 1,
+"legenddecimals": 0,
 "breaks": "equal",
 "dropticks": false,
 "numberBreaks": 5,
