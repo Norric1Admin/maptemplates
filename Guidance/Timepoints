@@ -1,0 +1,7 @@
+Script.js (line 1004) replace...
+
+.tickValues([dvc.timepoints[0], dvc.timepoints[10]])
+
+With...
+
+.tickValues([dvc.timepoints[0], dvc.timepoints[dvc.timepoints.length-1]])
