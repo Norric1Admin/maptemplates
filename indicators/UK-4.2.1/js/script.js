@@ -894,7 +894,7 @@ if (Modernizr.webgl) {
 
         line1 = d3.line()
           .defined(function(linedata) {
-            return !isNaN(linedata[1]);
+            return !isNaN(linedata[0]);
           })
           .x(function(d, i) {
             return x(linedata[i][0]);
