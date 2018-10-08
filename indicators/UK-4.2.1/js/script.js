@@ -425,7 +425,7 @@ if (Modernizr.webgl) {
       map.on("mousemove", "area", onMove);
 
       // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
-      map.off("mouseleave", "area", onLeave);
+      map.on("mouseleave", "area", onLeave);
 
       //Add click event
       map.on("click", "area", onClick);
@@ -675,7 +675,7 @@ if (Modernizr.webgl) {
     function enableMouseEvents() {
       map.on("mousemove", "area", onMove);
       map.on("click", "area", onClick);
-      map.off("mouseleave", "area", onLeave);
+      map.on("mouseleave", "area", onLeave);
 
       selected = false;
     }
@@ -894,7 +894,7 @@ if (Modernizr.webgl) {
 
         line1 = d3.line()
           .defined(function(linedata) {
-            return !isNaN(linedata[0]);
+            return !isNaN(linedata[1]);
           })
           .x(function(d, i) {
             return x(linedata[i][0]);
