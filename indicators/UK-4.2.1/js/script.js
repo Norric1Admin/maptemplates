@@ -425,7 +425,7 @@ if (Modernizr.webgl) {
       map.on("mousemove", "area", onMove);
 
       // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
-      map.on("mouseleave", "area", onLeave);
+      map.off("mouseleave", "area", onLeave);
 
       //Add click event
       map.on("click", "area", onClick);
@@ -675,7 +675,7 @@ if (Modernizr.webgl) {
     function enableMouseEvents() {
       map.on("mousemove", "area", onMove);
       map.on("click", "area", onClick);
-      map.on("mouseleave", "area", onLeave);
+      map.off("mouseleave", "area", onLeave);
 
       selected = false;
     }
