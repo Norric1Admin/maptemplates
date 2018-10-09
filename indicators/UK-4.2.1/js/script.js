@@ -675,7 +675,7 @@ if (Modernizr.webgl) {
     function enableMouseEvents() {
       map.on("mousemove", "area", onMove);
       map.on("click", "area", onClick);
-      map.on("mouseleave", "area", onLeave);
+      map.off("mouseleave", "area", onLeave);
 
       selected = false;
     }
