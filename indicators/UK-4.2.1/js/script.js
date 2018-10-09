@@ -21,9 +21,9 @@ if (Modernizr.webgl) {
     //Set up global variables
     dvc = config.ons;
     oldAREACD = "";
-    selected = true;
+    selected = false;
     firsthover = true;
-    chartDrawn = true;
+    chartDrawn = false;
     thisdata = data;
     overallwidth = d3.select("body").node().getBoundingClientRect().width;
 
