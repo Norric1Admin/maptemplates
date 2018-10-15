@@ -28,7 +28,7 @@ from pprint import pprint
 
 
 # send request and record response as 'response'
-response = RQ.get("https://opendata.arcgis.com/datasets/4fcca2a47fed4bfaa1793015a18537ac_4.geojson")
+response = RQ.get("http://197.255.124.67/layers/geonode:_216district")
 
 # print status code to determine whether the request was successful
 print(response.status_code)
@@ -37,10 +37,10 @@ print(response.status_code)
 if response.ok == True:
     print(response.content)
     region_geo = response.json()
-    with open('region_geo.json','w') as outfile:
+    with open('district_geo.json','w') as outfile:
         json.dump(region_geo,outfile)
 
 
 # reading json files
-with open('region_geo.json') as jsonfile:
+with open('district_geo.json') as jsonfile:
         region_data = json.load(jsonfile)

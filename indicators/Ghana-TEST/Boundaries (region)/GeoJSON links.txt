@@ -1,2 +1,0 @@
-GeoJSON + Boundaries
-http://197.255.124.67/layers/geonode:ghanaregions

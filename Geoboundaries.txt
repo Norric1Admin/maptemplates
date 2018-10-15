@@ -1,0 +1,5 @@
+Ghana
+District (2007): https://geo.nyu.edu/catalog/stanford-rh271yg5585
+Regions: http://197.255.124.67/layers/geonode:ghanaregions
+
+GeoJSON to TopoJSON: https://github.com/CodeForAfrica/DopplerMaps/wiki/Convert-GeoJSON-to-TopoJSON
