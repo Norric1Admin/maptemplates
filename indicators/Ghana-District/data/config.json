@@ -2,7 +2,7 @@
 "maptitle": "3.2.1 - Under-five mortality rate",
 "varcolour": "YlGnBu",
 "varlabels": ["VARIABLE 1","VARIABLE 2","VARIABLE 3","VARIABLE 4"],
-"timeload": "last"
+"timeload": "last",
 "timepoints": ["1998","2003","2006","2008","2011","2014"],
 "varunit": ["Deaths per 1000 live births","UNIT","UNIT","UNIT"],
 "displaydecimals": 0,
@@ -15,6 +15,6 @@
 "chartLabels": ["1","1","1","1","1","1"],
 "timelineLabelsMB":["98","","06","","11",""],
 "timelineLabelsDT":["1998","2003","2006","2008","2011","2014"],
-"average": []
+"average": ["average": [["0","0","0","0","0","0"],["0","0","0","0","0","0"],["0","0","0","0","0","0"]]
   
 }}
