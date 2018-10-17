@@ -1,7 +1,7 @@
 {"ons":{
 "maptitle": "3.2.1 Under-five mortality rate",
-"varcolour": "RdYlGn",
-"varlabels": ["Under-five mortality rate","","",""],
+"varcolour": "YlOrRd",
+"varlabels": ["Under-five mortality rate","[TEST DATA]","",""],
 "timeload": "last",
 "timepoints": ["2010","2015"],
 "varunit": ["Percentage (%)","","",""],
