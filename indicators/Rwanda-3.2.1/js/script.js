@@ -1114,7 +1114,7 @@ if (Modernizr.webgl) {
 													.style("opacity",0.3)
 													.attr("fill","#666")
 													.attr("text-anchor", "middle")
-													.text("E&W Average");
+													.text("");
 
       } else {
         // Horizontal legend
