@@ -73,7 +73,7 @@ if (Modernizr.webgl) {
     map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'data/style.json', //stylesheet location //includes key for API
-      center: [-2.5, 54], // starting position
+      center: [-2, 30], // starting position
       minZoom: 3.5, //
       zoom: 4.5, // starting zoom
       maxZoom: 13, //
