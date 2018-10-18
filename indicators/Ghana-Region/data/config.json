@@ -1,7 +1,7 @@
 {"ons":{
 "maptitle": "3.2.1 - Under-five mortality rate",
 "varcolour": "YlGnBu",
-"varlabels": ["VARIABLE 1","VARIABLE 2","VARIABLE 3","VARIABLE 4"],
+"varlabels": ["Under-five mortality rate","[TEST DATA]","[TEST DATA]","[TEST DATA]"],
 "timeload": "last",
 "timepoints": ["1998","2003","2008","2011"],
 "varunit": ["Deaths per 1000 live births","UNIT","UNIT","UNIT"],
