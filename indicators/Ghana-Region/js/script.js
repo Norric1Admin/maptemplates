@@ -23,7 +23,7 @@ if (Modernizr.webgl) {
     oldAREACD = "";
     selected = false;
     firsthover = true;
-    chartDrawn = false;
+    chartDrawn = true;
     thisdata = data;
     overallwidth = d3.select("body").node().getBoundingClientRect().width;
 
