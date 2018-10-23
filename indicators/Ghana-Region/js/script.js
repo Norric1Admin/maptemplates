@@ -10,14 +10,12 @@ if (Modernizr.webgl) {
 
   //Load data and config file
   d3.queue()
-    .defer(d3.json, "data/geog.json")
-    .defer(d3.json, "data/config.json")
     .defer(d3.csv, "data/data0.csv")
-    
-
+    .defer(d3.json, "data/config.json")
+    .defer(d3.json, "data/geog.json")
     .await(ready);
 
-
+	
   function ready(error, data, config, geog) {
 
     //Set up global variables
@@ -75,7 +73,7 @@ if (Modernizr.webgl) {
     map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'data/style.json', //stylesheet location //includes key for API
-      center: [30, -2], // starting position
+      center: [-1, 8], // starting position
       minZoom: 3.5, //
       zoom: 4.5, // starting zoom
       maxZoom: 13, //
@@ -1002,7 +1000,7 @@ if (Modernizr.webgl) {
 //Add
 				var xAxisTime = d3.axisBottom(x)
 					.tickSize(5)
-					.tickValues([dvc.timepoints[0], dvc.timepoints[10]])
+					.tickValues([dvc.timepoints[0], dvc.timepoints[dvc.timepoints.length-1]])
 					.tickFormat(legendformat);
 
 				var g = svgkey.append("g").attr("id","vert")
@@ -1116,7 +1114,7 @@ if (Modernizr.webgl) {
 													.style("opacity",0.3)
 													.attr("fill","#666")
 													.attr("text-anchor", "middle")
-													.text("");
+													.text("E&W Average");
 
       } else {
         // Horizontal legend
