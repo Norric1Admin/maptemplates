@@ -10,9 +10,11 @@ if (Modernizr.webgl) {
 
   //Load data and config file
   d3.queue()
-    .defer(d3.csv, "data/data0.csv")
-    .defer(d3.json, "data/config.json")
     .defer(d3.json, "data/geog.json")
+    .defer(d3.json, "data/config.json")
+    .defer(d3.csv, "data/data0.csv")
+    
+
     .await(ready);
 
 
@@ -21,9 +23,9 @@ if (Modernizr.webgl) {
     //Set up global variables
     dvc = config.ons;
     oldAREACD = "";
-    selected = true;
+    selected = false;
     firsthover = true;
-    chartDrawn = true;
+    chartDrawn = false;
     thisdata = data;
     overallwidth = d3.select("body").node().getBoundingClientRect().width;
 
@@ -56,7 +58,7 @@ if (Modernizr.webgl) {
     if (dvc.varlabels.length > 1) {
       buildNav();
     } else {
-      d3.select("#topNav").attr("display", "none")
+      d3.select("#topNav").attr("visibility", "hidden")
     }
     //set title of page
     //Need to test that this shows up in GA
@@ -73,7 +75,7 @@ if (Modernizr.webgl) {
     map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'data/style.json', //stylesheet location //includes key for API
-      center: [-2.5, 54], // starting position
+      center: [30, -2], // starting position
       minZoom: 3.5, //
       zoom: 4.5, // starting zoom
       maxZoom: 13, //
@@ -675,7 +677,7 @@ if (Modernizr.webgl) {
     function enableMouseEvents() {
       map.on("mousemove", "area", onMove);
       map.on("click", "area", onClick);
-      map.off("mouseleave", "area", onLeave);
+      map.on("mouseleave", "area", onLeave);
 
       selected = false;
     }
@@ -1009,7 +1011,7 @@ if (Modernizr.webgl) {
 					.style("font-family","'open sans'")
 					.style("font-size","12px");
 
-					d3.selectAll("path").attr("display", "none")
+					d3.selectAll("path").attr("visibility", "hidden")
 
         g.selectAll("rect")
           .data(color.range().map(function(d, i) {
@@ -1114,7 +1116,7 @@ if (Modernizr.webgl) {
 													.style("opacity",0.3)
 													.attr("fill","#666")
 													.attr("text-anchor", "middle")
-													.text("E&W Average");
+													.text("");
 
       } else {
         // Horizontal legend
