@@ -10,11 +10,9 @@ if (Modernizr.webgl) {
 
   //Load data and config file
   d3.queue()
-    .defer(d3.json, "data/geog.json")
-    .defer(d3.json, "data/config.json")
     .defer(d3.csv, "data/data0.csv")
-    
-
+    .defer(d3.json, "data/config.json")
+    .defer(d3.json, "data/geog.json")
     .await(ready);
 
 
