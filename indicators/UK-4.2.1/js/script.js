@@ -56,7 +56,7 @@ if (Modernizr.webgl) {
     if (dvc.varlabels.length > 1) {
       buildNav();
     } else {
-      d3.select("#topNav").attr("visibility", "hidden")
+      d3.select("#topNav").attr("visibility", "visible")
     }
     //set title of page
     //Need to test that this shows up in GA
@@ -1009,7 +1009,7 @@ if (Modernizr.webgl) {
 					.style("font-family","'open sans'")
 					.style("font-size","12px");
 
-					d3.selectAll("path").attr("visibility", "hidden")
+					d3.selectAll("path").attr("visibility", "visible")
 
         g.selectAll("rect")
           .data(color.range().map(function(d, i) {
