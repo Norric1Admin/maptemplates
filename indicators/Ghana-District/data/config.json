@@ -1,10 +1,10 @@
 {"ons":{
-"maptitle": "3.2.1 - Under-five mortality rate",
+"maptitle": "District test map",
 "varcolour": "YlGnBu",
 "varlabels": ["VARIABLE 1","VARIABLE 2","VARIABLE 3","VARIABLE 4"],
 "timeload": "last",
 "timepoints": ["1998","2003","2006","2008","2011","2014"],
-"varunit": ["Deaths per 1000 live births","UNIT","UNIT","UNIT"],
+"varunit": ["Numbers per unit count","UNIT","UNIT","UNIT"],
 "displaydecimals": 0,
 "legenddecimals": 0,
 "breaks": "equal",
