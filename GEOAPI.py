@@ -28,7 +28,7 @@ from pprint import pprint
 
 
 # send request and record response as 'response'
-response = RQ.get("http://197.255.124.67/layers/geonode:_216district")
+response = RQ.get("http://197.255.124.67/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3A_216district&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature")
 
 # print status code to determine whether the request was successful
 print(response.status_code)
