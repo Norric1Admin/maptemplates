@@ -1,11 +1,11 @@
-AREANM,AREACD,time1,time2,time3,time4
-Western,1,44.7,46,14,17
-Central,2,63.6,41,38,36
-Greater Accra,3,21.5,31,14,19
-Volta,4,46.7,41,13,22
-Eastern,5,41,33,30,24
-Ashanti,6,37.9,40,28,45
-Brong Ahafo,7,55.7,35,41,41
-Northern,8,108.8,90,72,63
-Upper East,9,91.5,48,33,43
-Upper West,10,80.3,115,50,44
+AREANM,AREACD,time1,time2,time3,time4,time5
+Ashanti,6,97.6,78.2,116,80,80
+Brong Ahafo,7,94.6,-128.7,91,-76,57
+Central,2,128,142.1,-90,-108,69
+Eastern,5,93.2,89.1,95,-81,68
+Greater Accra,3,100.2,62,75,-50,47
+Northern,8,237,171.3,154,137,111
+Upper East,9,-187.7,155.6,79,-78,-72
+Upper West,10,180.1,155.3,208,-142,-92
+Volta,4,116.4,98,113,-50,61
+Western,1,131.8,109.7,109,-65,56
