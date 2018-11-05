@@ -4,4 +4,4 @@
 - [Rwanda Region](https://norric1admin.github.io/maptemplates/indicators/Rwanda-Region/map.html)
 - [Ghana Region](https://norric1admin.github.io/maptemplates/indicators/Ghana-Region/map.html)
 - [Ghana District](https://norric1admin.github.io/maptemplates/indicators/Ghana-District/map.html)
-- [TEMPLATE](https://norric1admin.github.io/maptemplates/indicators/template/map.html)
+- [TEMPLATE](https://norric1admin.github.io/maptemplates/indicators/Template/map.html)
