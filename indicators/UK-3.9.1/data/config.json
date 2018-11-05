@@ -1,20 +1,20 @@
 {"ons":{
-"maptitle": "3.9.1",
+"maptitle": "3.9.1 Mortality rate attributed to household and ambient air pollution",
 "varcolour": "Blues",
-"varlabels": ["3.9.1"],
+"varlabels": ["Adult deaths (aged 30 and over)"],
 "timeload": "last",
-"timepoints": ["2010","2011","2012","2013","2014","2015","2016"],
+"timepoints": ["2011","2012","2013","2014","2015","2016"],
 "varunit": ["Percentage (%)"],
 "displaydecimals": 0,
 "legenddecimals": 0,
 "breaks": "equal",
 "dropticks": false,
 "numberBreaks": 5,
-"sourcetext": "Early years foundation stage profile results: 2016 to 2017",
+"sourcetext": "Public health profiles - 3.01 Fraction of mortality attributable to particulate air pollution",
 "sourceURL" : "https://www.gov.uk/government/statistics/early-years-foundation-stage-profile-results-2016-to-2017",
 "chartLabels": ["1", "2", "3", "4"],
-"timelineLabelsMB":["10","11","12","13","14","15","16"],
-"timelineLabelsDT":["2010","2011","2012","2013","2014","2015","2016"],
-"average": [["0","0","0","0","0","0","0"]]
+"timelineLabelsMB":["11","12","13","14","15","16"],
+"timelineLabelsDT":["2011","2012","2013","2014","2015","2016"],
+"average": [["0","0","0","0","0","0"]]
 
 }}
