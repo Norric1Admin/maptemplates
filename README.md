@@ -4,6 +4,6 @@
 - [UK Region - TEST](https://norric1admin.github.io/maptemplates/indicators/UK-Region/map.html)
 - [Rwanda 3.2.1](https://norric1admin.github.io/maptemplates/indicators/Rwanda-Region/map.html)
 - [Rwanda Region - TEST](https://norric1admin.github.io/maptemplates/indicators/Rwanda-3.2.1/map.html)
-- [Ghana Region](https://norric1admin.github.io/maptemplates/indicators/Ghana-Region/map.html)
+- [Ghana 3.2.1](https://norric1admin.github.io/maptemplates/indicators/Ghana-Region/map.html)
 - [Ghana District - TEST](https://norric1admin.github.io/maptemplates/indicators/Ghana-District/map.html)
 - [TEMPLATE](https://norric1admin.github.io/maptemplates/indicators/Template/map.html)
